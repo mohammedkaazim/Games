@@ -3,7 +3,7 @@ package com.Game;
 import java.util.Random;
 import java.util.Scanner;
 
-    public class GuessTheNumber {
+public class GuessTheNumber {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);  // Create scanner for input
             Random rand = new Random();  // Create random object to generate number
@@ -32,5 +32,4 @@ import java.util.Scanner;
 
             sc.close();  // Close scanner
         }
-    }
 }
